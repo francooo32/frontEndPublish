@@ -25,6 +25,16 @@ button {
   color: aliceblue;
   background-color: #b88cae; }
 
+@media (min-width: 546px) {
+  .my-rowFooterLowRes {
+    display: none; } }
+
+@media (max-width: 545px) {
+  .my-rowFooterHighRes {
+    display: none; }
+  .my-rowFooterLowRes li {
+    width: max-content; } }
+
 #hero {
   display: flex;
   align-items: center;
@@ -161,7 +171,9 @@ button {
     .row-smstptLow h3 {
       display: none; }
     .row-smstptLow li {
-      display: none; } }
+      display: none; }
+  .row-btsDropSectionLowRes {
+    display: none; } }
 
 @media (max-width: 991px) {
   .container-somostapitasLowRes {
@@ -239,7 +251,7 @@ button {
     .row-smstptHigh li {
       display: none; }
   .row-smstptLow {
-    padding: 30px 60px 20px 0px; }
+    padding: 30px 15px 20px 0px; }
     .row-smstptLow .img-container-smstptLow {
       background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.089)), url("../media/macarons5.jpg");
       background-size: cover;
@@ -248,7 +260,9 @@ button {
       width: 350px;
       border-radius: 10px; }
     .row-smstptLow li {
-      width: max-content; } }
+      width: max-content; }
+  .row-btsDropSectionHighRes {
+    display: none; } }
 
 @media (min-width: 820px) {
   #hero {

@@ -27,6 +27,10 @@ body {
         }
     }
 
+    // li{
+    //         width: max-content;
+    //     }
+
 }
 
 button {
@@ -42,6 +46,34 @@ button {
     // &:hover{
     //     background-color: map-get($genericValues, primaryHover);
     // }
+}
+
+@media (min-width: 546px) {
+    .my-rowFooterLowRes{
+        display: none;
+    }
+
+    // .my-rowFooterHighRes{
+    //     li{
+    //         width: 100%;
+    //     }
+
+    // }
+}
+
+@media (max-width: 545px) {
+
+    .my-rowFooterHighRes{
+        display: none;
+    }
+
+    .my-rowFooterLowRes{
+        li{
+            width: max-content;
+        }
+
+    }
+
 }
 //FOR ALL END //
 
@@ -309,6 +341,10 @@ button {
         }
      }
 
+     .row-btsDropSectionLowRes{
+        display: none;
+     }
+
  }
 
 @media (max-width: 991px) {
@@ -505,7 +541,7 @@ button {
      }
 
      .row-smstptLow{
-        padding: 30px 60px 20px 0px;
+        padding: 30px 15px 20px 0px;
     
          .img-container-smstptLow {
             background-image:linear-gradient(
@@ -523,6 +559,10 @@ button {
         li{
             width: max-content;
         }
+     }
+
+     .row-btsDropSectionHighRes{
+        display: none;
      }
 }
 

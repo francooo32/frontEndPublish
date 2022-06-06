@@ -227,7 +227,9 @@
     <section id="btsDropSection">
         <div class="container">
             <h3 class="text-center h-50">Usa nuestros atajos!</h3>
-            <div class="row">
+
+            <!--Displayed on 992 res and higher -->
+            <div class="row row-btsDropSectionHighRes">
                  <div class="col-6">
                     
                     <div class="dropdown">
@@ -260,6 +262,40 @@
                  </div>
             </div>
 
+            <!--Displayed on 991 res and lower -->
+            <div class="row row-btsDropSectionLowRes">
+                <div class="col-6">
+                   
+                   <div class="dropdown">
+                       <button class="btDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                           Deliguia
+                       </button>
+                       <div id="btsDpMenu" class="dropdown-menu">
+                         <a class="dropdown-item" href="#">Inicio</a>
+                         <a class="dropdown-item" href="#">Ventajas</a>
+                         <a class="dropdown-item" href="#">Nuestros box</a>
+                       </div>
+                     </div>
+                   
+   
+                </div>
+   
+                <div class="col-6">
+   
+                   <div class="dropdown">
+                       <button class="btDrop2" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                         Ofertas!
+                       </button>
+                       <div id="btsDpMenu" class="dropdown-menu">
+                         <a class="dropdown-item" href="#">Navidad</a>
+                         <a class="dropdown-item" href="#">San Valentín</a>
+                         <a class="dropdown-item" href="#">Pascua</a>
+                       </div>
+                     </div>
+   
+                </div>
+           </div>
+
             <div class="row">   
                 <div class="col-12">
                     <ul class="pagination justify-content-center">
@@ -281,7 +317,8 @@
 
     <footer id="first-footer" class="bg-white text-black">
         <div class="container">
-            <nav class="row">
+            <!--Displayed on 546 res and higher -->
+            <nav class="row my-rowFooterHighRes">
                 <a href="#" class="col-3 text-reset text-uppercase d-flex align-items-center">
                     <img src="./media/Logo PTapitas_logo.png" alt="logo ponele tapitas" class="img-logo">
                 </a>
@@ -321,6 +358,37 @@
                     </li>
                 </ul>
             </nav>
+
+            <!--Displayed on 545 res and lower -->
+            <nav class="row my-rowFooterLowRes">
+                <a href="#" class="col-3 text-reset text-uppercase d-flex align-items-center">
+                    <img src="./media/Logo PTapitas_logo.png" alt="logo ponele tapitas" class="img-logo">
+                </a>
+
+                    <ul class="col-3 list-unstyled">
+
+                        <li>Yatay 623 Ciudad Buenos Aires 666 2245-4564</li>
+                        <li>Sobre nosotros Nuestro local</li>
+                        <li>
+                                <a href="#" class="text-reset">
+                                <img src="media/instagram.png" alt="instagram">
+                            </a>
+                            <a href="#" class="text-reset">
+                                <img src="media/facebook.png" alt="facebook">
+                            </a>
+                            <a href="#" class="text-reset">
+                                <img src="media/twitch.png" alt="youtube">
+                            </a>
+                            <a href="#" class="text-reset">
+                                <img src="media/twitter.png" alt="youtube">
+                            </a>
+                        </li>
+
+
+                </ul>
+
+            </nav>
+
         </div>
 
     </footer>
