@@ -5,12 +5,44 @@
     box-sizing: border-box;
 }
 
+h1 { font-size: 3em;
+    font-family: $font-primary;
+    font-weight: bold;}
+h2 { font-size: 2.5em;
+    font-family: $font-primary;
+    font-weight: bold;}
+h3 { font-size: 2em;
+    font-family: $font-primary;
+    font-weight: bold;}
+h4 { font-size: 2em;
+    font-family: $font-primary;
+    font-weight: bold;}
+// p { font-size: 1.25em;}
+ul { list-style: none;}
+
 body {
     background-color: #eed3d3;
 }
 
 .my-navbar{
     background-color: #b88cae;
+
+    .nav-link{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: map-get($genericValues, genericFont);
+    
+            @each $hover in $hoverColours {
+                &:hover {
+                
+                color: $hover; 
+                
+                }
+            
+            } 
+        }
 }
 
 #first-footer{
@@ -78,20 +110,31 @@ button {
     }
 
 }
+
+@media (min-width: 992px) {
+    .my-navBarToggle{
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    p{color: #ffffff;}
+}
+
 //FOR ALL END //
 
 // INDEX START //
 
-#hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    background-color: aqua;
-    // height: 90vh;
+// #hero {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+//     flex-direction: column;
+//     background-color: aqua;
+//     height: 90vh;
     
-}
+// }
 
 
 
@@ -102,38 +145,62 @@ button {
         padding: 13px;
      }
 
-     .cartas {
+    //  .cartas {
+    //     background-position: center center;
+    //     background-size: cover;
+    //     text-align: center;
+    //     border-radius: 10px;
+    // }
+    
+    .cartas1{
         background-position: center center;
         background-size: cover;
         text-align: center;
         border-radius: 10px;
-    }
-    
-    .cartas:first-child{
         background-image: linear-gradient(
             0deg,
-            rgba(0, 0, 0, 0.205),
-            rgba(0,0,0,0.205)
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.3)
         )
         ,url("../media/pinterest1.jpg");
+
+        p{
+            color: #ffffff;
+        }
     }
     
-    .cartas:nth-child(2){
+    .cartas2{
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+        border-radius: 10px;
         background-image: linear-gradient(
             0deg,
-            rgba(0,0,0,0.205),
-            rgba(0,0,0,0.205)
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.3)
         )
         ,url("../media/pinterest2.jpg");
+
+            p{
+                color: #ffffff;
+            }
     }
     
-    .cartas:nth-child(3){
+    .cartas3{
+        background-position: center center;
+        background-size: cover;
+        text-align: center;
+        border-radius: 10px;
         background-image: linear-gradient(
             0deg,
-            rgba(0,0,0,0.205),
-            rgba(0,0,0,0.205)
+            rgba(0,0,0,0.3),
+            rgba(0,0,0,0.3)
         )
         ,url("../media/pinterest3.jpg");
+
+        p{
+            color: #ffffff;
+        }
     }
 
  }
@@ -146,7 +213,7 @@ button {
     text-align: center;
     background-color: #b88cae;
     color: #ffffff;
-    height: 15vh;
+    height: 20vh;
 }
 
 /* INDEX BST START */
@@ -247,63 +314,63 @@ button {
     #row-nuestrobox-lowres1{
         display: none;
 
-        .cartasLowRes {
+        .cartasLowRes1 {
             display: none;
         }
        
-       .cartasLowRes:first-child{
-        display: none;
-        }
+    //    .cartasLowRes:first-child{
+    //     display: none;
+    //     }
        
-       .cartasLowRes:nth-child(2){
-        display: none;
-        }
+    //    .cartasLowRes:nth-child(2){
+    //     display: none;
+    //     }
        
-       .cartasLowRes:nth-child(3){
-        display: none;
-        }
+    //    .cartasLowRes:nth-child(3){
+    //     display: none;
+    //     }
 
     }
 
     #row-nuestrobox-lowres2{
         display: none;
 
-        .cartasLowRes {
+        .cartasLowRes2 {
             display: none;
         }
        
-       .cartasLowRes:first-child{
-        display: none;
-        }
+    //    .cartasLowRes:first-child{
+    //     display: none;
+    //     }
        
-       .cartasLowRes:nth-child(2){
-        display: none;
-        }
+    //    .cartasLowRes:nth-child(2){
+    //     display: none;
+    //     }
        
-       .cartasLowRes:nth-child(3){
-        display: none;
-        }
+    //    .cartasLowRes:nth-child(3){
+    //     display: none;
+    //     }
 
     }
 
     #row-nuestrobox-lowres3{
         display: none;
 
-        .cartasLowRes {
+        .cartasLowRes3 {
             display: none;
         }
        
-       .cartasLowRes:first-child{
-        display: none;
-        }
+    //    .cartasLowRes:first-child{
+    //     display: none;
+    //     }
        
-       .cartasLowRes:nth-child(2){
-        display: none;
-        }
+    //    .cartasLowRes:nth-child(2){
+    //     display: none;
+    //     }
        
-       .cartasLowRes:nth-child(3){
-        display: none;
-        }
+    //    .cartasLowRes:nth-child(3){
+    //     display: none;
+    //     }
 
     }
 
@@ -315,7 +382,7 @@ button {
                 0deg,
                 rgba(0, 0, 0, 0.13),
                 rgba(0, 0, 0, 0.089) 
-            ), url("../media/macarons5.jpg");
+            ), url("../media/macarons4.jpg");
             background-size: cover;
             background-position: center center;
             height: 250px;
@@ -360,8 +427,8 @@ button {
             .img-containerLowRes {
             background-image:linear-gradient(
                 0deg,
-                rgba(0, 0, 0, 0.13),
-                rgba(0, 0, 0, 0.089) 
+                rgba(0, 0, 0, 0.30),
+                rgba(0, 0, 0, 0.3) 
             ), url("../media/macarons5.jpg");
             background-size: cover;
             background-position: center center;
@@ -387,19 +454,19 @@ button {
             display: none;
         }
    
-        .cartas {
-            display: none;
-       }
+    //     .cartas {
+    //         display: none;
+    //    }
        
-       .cartas:first-child{
+       .cartas1{
         display: none;
        }
        
-       .cartas:nth-child(2){
+       .cartas2{
         display: none;
        }
        
-       .cartas:nth-child(3){
+       .cartas3{
         display: none;
        }
 
@@ -412,117 +479,155 @@ button {
     #row-nuestrobox-lowres1{
         padding: 13px;
 
-        .cartasLowRes {
+        // .cartasLowRes {
+        //     background-position: center center;
+        //     background-size: cover;
+        //     text-align: center;
+        //     border-radius: 10px;
+        // }
+        
+        .cartasLowRes1{
             background-position: center center;
             background-size: cover;
             text-align: center;
             border-radius: 10px;
-        }
-        
-        .cartasLowRes:first-child{
             background-image: linear-gradient(
                 0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
+                rgba(0,0,0,0.3),
+                rgba(0,0,0,0.3)
             )
             ,url("../media/pinterest1.jpg");
         }
         
-        .cartasLowRes:nth-child(2){
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/pinterest2.jpg");
-        }
+        // .cartasLowRes2{
+        //     background-position: center center;
+        //     background-size: cover;
+        //     text-align: center;
+        //     border-radius: 10px;
+        //     background-image: linear-gradient(
+        //         0deg,
+        //         rgba(0,0,0,0.205),
+        //         rgba(0,0,0,0.205)
+        //     )
+        //     ,url("../media/pinterest2.jpg");
+        // }
         
-        .cartasLowRes:nth-child(3){
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/pinterest3.jpg");
-        }
+        // .cartasLowRes3{
+        //     background-position: center center;
+        //     background-size: cover;
+        //     text-align: center;
+        //     border-radius: 10px;
+        //     background-image: linear-gradient(
+        //         0deg,
+        //         rgba(0,0,0,0.205),
+        //         rgba(0,0,0,0.205)
+        //     )
+        //     ,url("../media/pinterest3.jpg");
+        // }
 
     }
 
     #row-nuestrobox-lowres2{
         padding: 13px;
 
-        .cartasLowRes {
+        .cartasLowRes2{
             background-position: center center;
             background-size: cover;
             text-align: center;
             border-radius: 10px;
-        }
-        
-        .cartasLowRes:first-child{
             background-image: linear-gradient(
                 0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/pinterest1.jpg");
-        }
-        
-        .cartasLowRes:nth-child(2){
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.205),
-                rgba(0,0,0,0.205)
+                rgba(0, 0, 0, 0.3),
+                rgba(0,0,0,0.3)
             )
             ,url("../media/pinterest2.jpg");
         }
+
+        // .cartasLowRes {
+        //     background-position: center center;
+        //     background-size: cover;
+        //     text-align: center;
+        //     border-radius: 10px;
+        // }
         
-        .cartasLowRes:nth-child(3){
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/pinterest3.jpg");
-        }
+        // .cartasLowRes:first-child{
+        //     background-image: linear-gradient(
+        //         0deg,
+        //         rgba(0, 0, 0, 0.205),
+        //         rgba(0,0,0,0.205)
+        //     )
+        //     ,url("../media/pinterest1.jpg");
+        // }
+        
+        // .cartasLowRes:nth-child(2){
+        //     background-image: linear-gradient(
+        //         0deg,
+        //         rgba(0,0,0,0.205),
+        //         rgba(0,0,0,0.205)
+        //     )
+        //     ,url("../media/pinterest2.jpg");
+        // }
+        
+        // .cartasLowRes:nth-child(3){
+        //     background-image: linear-gradient(
+        //         0deg,
+        //         rgba(0,0,0,0.205),
+        //         rgba(0,0,0,0.205)
+        //     )
+        //     ,url("../media/pinterest3.jpg");
+        // }
 
     }
 
     #row-nuestrobox-lowres3{
         padding: 13px;
 
-        .cartasLowRes {
+        .cartasLowRes3{
             background-position: center center;
             background-size: cover;
             text-align: center;
             border-radius: 10px;
-        }
-        
-        .cartasLowRes:first-child{
             background-image: linear-gradient(
                 0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/pinterest1.jpg");
-        }
-        
-        .cartasLowRes:nth-child(2){
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/pinterest2.jpg");
-        }
-        
-        .cartasLowRes:nth-child(3){
-            background-image: linear-gradient(
-                0deg,
-                rgba(0,0,0,0.205),
-                rgba(0,0,0,0.205)
+                rgba(0, 0, 0, 0.3),
+                rgba(0,0,0,0.3)
             )
             ,url("../media/pinterest3.jpg");
         }
+
+        // .cartasLowRes {
+        //     background-position: center center;
+        //     background-size: cover;
+        //     text-align: center;
+        //     border-radius: 10px;
+        // }
+        
+        // .cartasLowRes:first-child{
+        //     background-image: linear-gradient(
+        //         0deg,
+        //         rgba(0, 0, 0, 0.205),
+        //         rgba(0,0,0,0.205)
+        //     )
+        //     ,url("../media/pinterest1.jpg");
+        // }
+        
+        // .cartasLowRes:nth-child(2){
+        //     background-image: linear-gradient(
+        //         0deg,
+        //         rgba(0,0,0,0.205),
+        //         rgba(0,0,0,0.205)
+        //     )
+        //     ,url("../media/pinterest2.jpg");
+        // }
+        
+        // .cartasLowRes:nth-child(3){
+        //     background-image: linear-gradient(
+        //         0deg,
+        //         rgba(0,0,0,0.205),
+        //         rgba(0,0,0,0.205)
+        //     )
+        //     ,url("../media/pinterest3.jpg");
+        // }
        
         }
     }
@@ -549,9 +654,9 @@ button {
          .img-container-smstptLow {
             background-image:linear-gradient(
                 0deg,
-                rgba(0, 0, 0, 0.13),
-                rgba(0, 0, 0, 0.089) 
-            ), url("../media/macarons5.jpg");
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3) 
+            ), url("../media/macarons4.jpg");
             background-size: cover;
             background-position: center center;
             height: 250px;
@@ -561,6 +666,7 @@ button {
     
         li{
             width: max-content;
+            color: #ffffff;
         }
      }
 
@@ -587,6 +693,33 @@ button {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+    }
+    
+
+}
+
+@media (max-width: 819px) {
+
+    #hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 50vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.274),
+            rgba(0, 0, 0, 0.233)
+        )
+        ,url("../media/macarons3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+        h1{
+            padding-top: 75px;
+        }
     }
     
 

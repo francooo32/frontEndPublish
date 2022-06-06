@@ -1,11 +1,50 @@
 * {
   box-sizing: border-box; }
 
+h1 {
+  font-size: 3em;
+  font-family: "Ms Madi", cursive;
+  font-weight: bold; }
+
+h2 {
+  font-size: 2.5em;
+  font-family: "Ms Madi", cursive;
+  font-weight: bold; }
+
+h3 {
+  font-size: 2em;
+  font-family: "Ms Madi", cursive;
+  font-weight: bold; }
+
+h4 {
+  font-size: 2em;
+  font-family: "Ms Madi", cursive;
+  font-weight: bold; }
+
+ul {
+  list-style: none; }
+
 body {
   background-color: #eed3d3; }
 
 .my-navbar {
   background-color: #b88cae; }
+  .my-navbar .nav-link {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Mukta", sans-serif; }
+    .my-navbar .nav-link:hover {
+      color: #d83f3f; }
+    .my-navbar .nav-link:hover {
+      color: #d8813f; }
+    .my-navbar .nav-link:hover {
+      color: #d8d53f; }
+    .my-navbar .nav-link:hover {
+      color: #8ed83f; }
+    .my-navbar .nav-link:hover {
+      color: #d83f8e; }
 
 #first-footer .img-logo {
   height: 30px; }
@@ -37,29 +76,42 @@ button {
     .my-rowFooterLowRes ul li {
       width: max-content; } }
 
-#hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  background-color: aqua; }
+@media (min-width: 992px) {
+  .my-navBarToggle {
+    display: none; } }
+
+@media (max-width: 991px) {
+  p {
+    color: #ffffff; } }
 
 #nuestros-box {
   background-color: #c2aabc; }
   #nuestros-box #row-nuestrobox-highres {
     padding: 13px; }
-  #nuestros-box .cartas {
+  #nuestros-box .cartas1 {
     background-position: center center;
     background-size: cover;
     text-align: center;
-    border-radius: 10px; }
-  #nuestros-box .cartas:first-child {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest1.jpg"); }
-  #nuestros-box .cartas:nth-child(2) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest2.jpg"); }
-  #nuestros-box .cartas:nth-child(3) {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest3.jpg"); }
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/pinterest1.jpg"); }
+    #nuestros-box .cartas1 p {
+      color: #ffffff; }
+  #nuestros-box .cartas2 {
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/pinterest2.jpg"); }
+    #nuestros-box .cartas2 p {
+      color: #ffffff; }
+  #nuestros-box .cartas3 {
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/pinterest3.jpg"); }
+    #nuestros-box .cartas3 p {
+      color: #ffffff; }
 
 #reserva-ahora {
   display: flex;
@@ -69,7 +121,7 @@ button {
   text-align: center;
   background-color: #b88cae;
   color: #ffffff;
-  height: 15vh; }
+  height: 20vh; }
 
 /* INDEX BST START */
 .btDrop1 {
@@ -127,38 +179,20 @@ button {
       display: none; }
   #row-nuestrobox-lowres1 {
     display: none; }
-    #row-nuestrobox-lowres1 .cartasLowRes {
-      display: none; }
-    #row-nuestrobox-lowres1 .cartasLowRes:first-child {
-      display: none; }
-    #row-nuestrobox-lowres1 .cartasLowRes:nth-child(2) {
-      display: none; }
-    #row-nuestrobox-lowres1 .cartasLowRes:nth-child(3) {
+    #row-nuestrobox-lowres1 .cartasLowRes1 {
       display: none; }
   #row-nuestrobox-lowres2 {
     display: none; }
-    #row-nuestrobox-lowres2 .cartasLowRes {
-      display: none; }
-    #row-nuestrobox-lowres2 .cartasLowRes:first-child {
-      display: none; }
-    #row-nuestrobox-lowres2 .cartasLowRes:nth-child(2) {
-      display: none; }
-    #row-nuestrobox-lowres2 .cartasLowRes:nth-child(3) {
+    #row-nuestrobox-lowres2 .cartasLowRes2 {
       display: none; }
   #row-nuestrobox-lowres3 {
     display: none; }
-    #row-nuestrobox-lowres3 .cartasLowRes {
-      display: none; }
-    #row-nuestrobox-lowres3 .cartasLowRes:first-child {
-      display: none; }
-    #row-nuestrobox-lowres3 .cartasLowRes:nth-child(2) {
-      display: none; }
-    #row-nuestrobox-lowres3 .cartasLowRes:nth-child(3) {
+    #row-nuestrobox-lowres3 .cartasLowRes3 {
       display: none; }
   .row-smstptHigh {
     padding: 30px 145px 20px 0px; }
     .row-smstptHigh .img-container-smstpt {
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.089)), url("../media/macarons5.jpg");
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.089)), url("../media/macarons4.jpg");
       background-size: cover;
       background-position: center center;
       height: 250px;
@@ -181,7 +215,7 @@ button {
   .container-somostapitasLowRes {
     padding: 30px; }
     .container-somostapitasLowRes .row-somostapitasLowRes .img-containerLowRes {
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.089)), url("../media/macarons5.jpg");
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/macarons5.jpg");
       background-size: cover;
       background-position: center center;
       height: 300px;
@@ -195,55 +229,38 @@ button {
     background-color: #c2aabc; }
     #nuestros-box #row-nuestrobox-highres {
       display: none; }
-    #nuestros-box .cartas {
+    #nuestros-box .cartas1 {
       display: none; }
-    #nuestros-box .cartas:first-child {
+    #nuestros-box .cartas2 {
       display: none; }
-    #nuestros-box .cartas:nth-child(2) {
-      display: none; }
-    #nuestros-box .cartas:nth-child(3) {
+    #nuestros-box .cartas3 {
       display: none; }
     #nuestros-box #row-nuestrobox-lowres1 {
       padding: 13px; }
     #nuestros-box #row-nuestrobox-lowres1 {
       padding: 13px; }
-      #nuestros-box #row-nuestrobox-lowres1 .cartasLowRes {
+      #nuestros-box #row-nuestrobox-lowres1 .cartasLowRes1 {
         background-position: center center;
         background-size: cover;
         text-align: center;
-        border-radius: 10px; }
-      #nuestros-box #row-nuestrobox-lowres1 .cartasLowRes:first-child {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest1.jpg"); }
-      #nuestros-box #row-nuestrobox-lowres1 .cartasLowRes:nth-child(2) {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest2.jpg"); }
-      #nuestros-box #row-nuestrobox-lowres1 .cartasLowRes:nth-child(3) {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest3.jpg"); }
+        border-radius: 10px;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/pinterest1.jpg"); }
     #nuestros-box #row-nuestrobox-lowres2 {
       padding: 13px; }
-      #nuestros-box #row-nuestrobox-lowres2 .cartasLowRes {
+      #nuestros-box #row-nuestrobox-lowres2 .cartasLowRes2 {
         background-position: center center;
         background-size: cover;
         text-align: center;
-        border-radius: 10px; }
-      #nuestros-box #row-nuestrobox-lowres2 .cartasLowRes:first-child {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest1.jpg"); }
-      #nuestros-box #row-nuestrobox-lowres2 .cartasLowRes:nth-child(2) {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest2.jpg"); }
-      #nuestros-box #row-nuestrobox-lowres2 .cartasLowRes:nth-child(3) {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest3.jpg"); }
+        border-radius: 10px;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/pinterest2.jpg"); }
     #nuestros-box #row-nuestrobox-lowres3 {
       padding: 13px; }
-      #nuestros-box #row-nuestrobox-lowres3 .cartasLowRes {
+      #nuestros-box #row-nuestrobox-lowres3 .cartasLowRes3 {
         background-position: center center;
         background-size: cover;
         text-align: center;
-        border-radius: 10px; }
-      #nuestros-box #row-nuestrobox-lowres3 .cartasLowRes:first-child {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest1.jpg"); }
-      #nuestros-box #row-nuestrobox-lowres3 .cartasLowRes:nth-child(2) {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest2.jpg"); }
-      #nuestros-box #row-nuestrobox-lowres3 .cartasLowRes:nth-child(3) {
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/pinterest3.jpg"); }
+        border-radius: 10px;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/pinterest3.jpg"); }
   .row-smstptHigh {
     display: none; }
     .row-smstptHigh .img-container-smstpt {
@@ -255,14 +272,15 @@ button {
   .row-smstptLow {
     padding: 30px 15px 20px 0px; }
     .row-smstptLow .img-container-smstptLow {
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.089)), url("../media/macarons5.jpg");
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../media/macarons4.jpg");
       background-size: cover;
       background-position: center center;
       height: 250px;
       width: 350px;
       border-radius: 10px; }
     .row-smstptLow li {
-      width: max-content; }
+      width: max-content;
+      color: #ffffff; }
   .row-btsDropSectionHighRes {
     display: none; } }
 
@@ -278,3 +296,18 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; } }
+
+@media (max-width: 819px) {
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.233)), url("../media/macarons3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; }
+    #hero h1 {
+      padding-top: 75px; } }
