@@ -32,8 +32,10 @@ button {
 @media (max-width: 545px) {
   .my-rowFooterHighRes {
     display: none; }
-  .my-rowFooterLowRes li {
-    width: max-content; } }
+  .my-rowFooterLowRes ul {
+    padding-top: 20px; }
+    .my-rowFooterLowRes ul li {
+      width: max-content; } }
 
 #hero {
   display: flex;

@@ -68,9 +68,12 @@ button {
     }
 
     .my-rowFooterLowRes{
-        li{
-            width: max-content;
-        }
+        ul{
+            padding-top: 20px;
+                li{
+                    width: max-content;
+                }
+        }    
 
     }
 
