@@ -1460,11 +1460,11 @@ input {
   height: 50px;
   padding: 0px 15px 0px 15px;
   
-  background: #ee6a6a24;
+//   background: #ee6a6a24;
   outline: none;
   color: #ffffff;
   
-  border: solid 2px #b3aca7;
+  border: solid 2px #fbd6bb;
   border-bottom: none;
   
   transition: all 0.3s ease-in-out;
@@ -1474,7 +1474,7 @@ input {
 }
 
 input:hover {
-  background: #b3aca7;
+  background: #ffffff;
   color: #e2dedb;
 }
 
@@ -1485,14 +1485,14 @@ textarea {
   max-height: 110px;
   padding: 15px;
   
-  background: #ee6a6a24;
+//   background: #ee6a6a24;
   outline: none;
   
   color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
   
-  border: solid 2px #b3aca7;
+  border: solid 2px #fbd6bb;
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1501,7 +1501,7 @@ textarea {
 }
 
 textarea:hover {
-  background: #b3aca7;
+  background: #ffffff;
   color: #e2dedb;
 }
 
@@ -1516,12 +1516,12 @@ textarea:hover {
   outline:none;
   cursor: pointer;
   
-  border: solid 1px #b3aca7;
+  border: solid 1px #fbd6bb;
   border-top: none;
 }
 
 #submit:hover {
-  color: #e2dedb;
+  color: #ffffff;
 }
 
 @media (max-width: 720px) {
