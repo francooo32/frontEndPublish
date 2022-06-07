@@ -26,7 +26,9 @@ ul {
   list-style: none; }
 
 body {
-  background-color: #eed3d3; }
+  background-color: #eed3d3;
+  background-image: url("../media/fondoFlores.png");
+  background-size: 35px; }
 
 .my-navbar {
   background-color: #b88cae; }
