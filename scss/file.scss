@@ -1665,7 +1665,7 @@ button {
 }
 
 #contact-nobanner .container {
-    padding: 70px 12px;
+    padding: 120px 12px;
     padding-bottom: 10px;
 }
 
@@ -1830,14 +1830,14 @@ textarea:hover {
   color: #e2dedb;
 }
 
-@media (min-width: 720px) {
+@media (max-width: 720px) {
     
     .contact-nobanner{
         text-align: center;
     }
     
     #contact-nobanner .container {
-        padding: 230px 12px;
+        padding: 120px 12px;
         padding-bottom: 10px;
     }
     
