@@ -471,55 +471,6 @@ button {
     #nuestros-box-nobanner p {
       text-align: center; } }
 
-@media (min-width: 764px) {
-  #nuestros-box-nobanner {
-    background-color: #c2aabc;
-    padding-top: 120px; }
-    #nuestros-box-nobanner .catalogo1 {
-      background-position: center center;
-      background-size: cover;
-      text-align: center;
-      border-radius: 10px;
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/sabor1.jpg");
-      height: 95px; }
-    #nuestros-box-nobanner .catalogo2 {
-      background-position: center center;
-      background-size: cover;
-      text-align: center;
-      border-radius: 10px;
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/sabor2.jpg");
-      height: 95px; }
-    #nuestros-box-nobanner .catalogo3 {
-      background-position: center center;
-      background-size: cover;
-      text-align: center;
-      border-radius: 10px;
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/sabor3.jpg");
-      height: 95px; }
-    #nuestros-box-nobanner .catalogo4 {
-      background-position: center center;
-      background-size: cover;
-      text-align: center;
-      border-radius: 10px;
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/sabor4.jpg");
-      height: 95px; }
-    #nuestros-box-nobanner .catalogo5 {
-      background-position: center center;
-      background-size: cover;
-      text-align: center;
-      border-radius: 10px;
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/sabor5.jpg");
-      height: 95px; }
-    #nuestros-box-nobanner .catalogo6 {
-      background-position: center center;
-      background-size: cover;
-      text-align: center;
-      border-radius: 10px;
-      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/sabor6.jpg");
-      height: 95px; }
-    #nuestros-box-nobanner p {
-      text-align: center; } }
-
 @media (max-width: 435px) {
   #nuestros-box-nobanner {
     background-color: #c2aabc;

@@ -748,6 +748,8 @@ button {
     font-family: map-get($genericValues, genericFont);
 }
 
+
+
 @media (min-width: 992px) {
 
     #nuestros-box-nobanner{
@@ -1068,111 +1070,111 @@ button {
     }
 }
 
-@media (min-width: 764px) {
+// @media (min-width: 764px) {
 
-    #nuestros-box-nobanner{
-        background-color: #c2aabc;
-        padding-top: 120px;
+//     #nuestros-box-nobanner{
+//         background-color: #c2aabc;
+//         padding-top: 120px;
 
-        .catalogo1{
-            background-position: center center;
-            background-size: cover;
-            text-align: center;
-            border-radius: 10px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/sabor1.jpg");
-            height: 95px;
+//         .catalogo1{
+//             background-position: center center;
+//             background-size: cover;
+//             text-align: center;
+//             border-radius: 10px;
+//             background-image: linear-gradient(
+//                 0deg,
+//                 rgba(0, 0, 0, 0.205),
+//                 rgba(0,0,0,0.205)
+//             )
+//             ,url("../media/sabor1.jpg");
+//             height: 95px;
 
-        }
+//         }
 
-        .catalogo2{
-            background-position: center center;
-            background-size: cover;
-            text-align: center;
-            border-radius: 10px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/sabor2.jpg");
-            height: 95px;
-
-            
-        }
-
-        .catalogo3{
-            background-position: center center;
-            background-size: cover;
-            text-align: center;
-            border-radius: 10px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/sabor3.jpg");
-            height: 95px;
-
-        }
-
-        .catalogo4{
-            background-position: center center;
-            background-size: cover;
-            text-align: center;
-            border-radius: 10px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/sabor4.jpg");
-            height: 95px;
-
-        }
-
-        .catalogo5{
-            background-position: center center;
-            background-size: cover;
-            text-align: center;
-            border-radius: 10px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/sabor5.jpg");
-            height: 95px;
+//         .catalogo2{
+//             background-position: center center;
+//             background-size: cover;
+//             text-align: center;
+//             border-radius: 10px;
+//             background-image: linear-gradient(
+//                 0deg,
+//                 rgba(0, 0, 0, 0.205),
+//                 rgba(0,0,0,0.205)
+//             )
+//             ,url("../media/sabor2.jpg");
+//             height: 95px;
 
             
-        }
+//         }
 
-        .catalogo6{
-            background-position: center center;
-            background-size: cover;
-            text-align: center;
-            border-radius: 10px;
-            background-image: linear-gradient(
-                0deg,
-                rgba(0, 0, 0, 0.205),
-                rgba(0,0,0,0.205)
-            )
-            ,url("../media/sabor6.jpg");
-            height: 95px    ;
+//         .catalogo3{
+//             background-position: center center;
+//             background-size: cover;
+//             text-align: center;
+//             border-radius: 10px;
+//             background-image: linear-gradient(
+//                 0deg,
+//                 rgba(0, 0, 0, 0.205),
+//                 rgba(0,0,0,0.205)
+//             )
+//             ,url("../media/sabor3.jpg");
+//             height: 95px;
 
-        }
+//         }
 
-        p{
-            text-align: center;
-        }
+//         .catalogo4{
+//             background-position: center center;
+//             background-size: cover;
+//             text-align: center;
+//             border-radius: 10px;
+//             background-image: linear-gradient(
+//                 0deg,
+//                 rgba(0, 0, 0, 0.205),
+//                 rgba(0,0,0,0.205)
+//             )
+//             ,url("../media/sabor4.jpg");
+//             height: 95px;
+
+//         }
+
+//         .catalogo5{
+//             background-position: center center;
+//             background-size: cover;
+//             text-align: center;
+//             border-radius: 10px;
+//             background-image: linear-gradient(
+//                 0deg,
+//                 rgba(0, 0, 0, 0.205),
+//                 rgba(0,0,0,0.205)
+//             )
+//             ,url("../media/sabor5.jpg");
+//             height: 95px;
+
+            
+//         }
+
+//         .catalogo6{
+//             background-position: center center;
+//             background-size: cover;
+//             text-align: center;
+//             border-radius: 10px;
+//             background-image: linear-gradient(
+//                 0deg,
+//                 rgba(0, 0, 0, 0.205),
+//                 rgba(0,0,0,0.205)
+//             )
+//             ,url("../media/sabor6.jpg");
+//             height: 95px    ;
+
+//         }
+
+//         p{
+//             text-align: center;
+//         }
         
 
-    }
-}
+//     }
+// }
 
 @media (max-width: 435px) {
 
