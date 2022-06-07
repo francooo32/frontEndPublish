@@ -17,7 +17,6 @@ h3 { font-size: 2em;
 h4 { font-size: 2em;
     font-family: $font-primary;
     font-weight: bold;}
-// p { font-size: 1.25em;}
 ul { list-style: none;}
 
 body {
@@ -59,10 +58,6 @@ body {
         }
     }
 
-    // li{
-    //         width: max-content;
-    //     }
-
 }
 
 button {
@@ -75,22 +70,12 @@ button {
     color:aliceblue;
     background-color: #b88cae;
 
-    // &:hover{
-    //     background-color: map-get($genericValues, primaryHover);
-    // }
 }
 
 @media (min-width: 546px) {
     .my-rowFooterLowRes{
         display: none;
     }
-
-    // .my-rowFooterHighRes{
-    //     li{
-    //         width: 100%;
-    //     }
-
-    // }
 }
 
 @media (max-width: 545px) {
@@ -125,19 +110,6 @@ button {
 
 // INDEX START //
 
-// #hero {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     text-align: center;
-//     flex-direction: column;
-//     background-color: aqua;
-//     height: 90vh;
-    
-// }
-
-
-
  #nuestros-box{
      background-color: #c2aabc;
 
@@ -145,13 +117,6 @@ button {
         padding: 13px;
      }
 
-    //  .cartas {
-    //     background-position: center center;
-    //     background-size: cover;
-    //     text-align: center;
-    //     border-radius: 10px;
-    // }
-    
     .cartas1{
         background-position: center center;
         background-size: cover;
@@ -241,7 +206,6 @@ button {
     text-align: center;
     background-color: #efc8e6;
     color: #ffffff;
-    // height: 20vh;
 }
 
 #btsDpMenu{
@@ -258,31 +222,6 @@ button {
             background-color: $color-primary;
         }
 } 
-
-/* INDEX BST END */
-
-//  .row-smstpt{
-//     padding: 30px 60px 20px 0px;
-
-//      .img-container-smstpt {
-//         background-image:linear-gradient(
-//             0deg,
-//             rgba(0, 0, 0, 0.13),
-//             rgba(0, 0, 0, 0.089) 
-//         ), url("../media/macarons5.jpg");
-//         background-size: cover;
-//         background-position: center center;
-//         height: 250px;
-//         width: 350px;
-//         border-radius: 10px;
-//     }
-
-//     li{
-//         width: max-content;
-//     }
-//  }
-
- 
 
  @media (min-width: 992px) {
 
@@ -317,18 +256,6 @@ button {
         .cartasLowRes1 {
             display: none;
         }
-       
-    //    .cartasLowRes:first-child{
-    //     display: none;
-    //     }
-       
-    //    .cartasLowRes:nth-child(2){
-    //     display: none;
-    //     }
-       
-    //    .cartasLowRes:nth-child(3){
-    //     display: none;
-    //     }
 
     }
 
@@ -338,18 +265,6 @@ button {
         .cartasLowRes2 {
             display: none;
         }
-       
-    //    .cartasLowRes:first-child{
-    //     display: none;
-    //     }
-       
-    //    .cartasLowRes:nth-child(2){
-    //     display: none;
-    //     }
-       
-    //    .cartasLowRes:nth-child(3){
-    //     display: none;
-    //     }
 
     }
 
@@ -359,18 +274,6 @@ button {
         .cartasLowRes3 {
             display: none;
         }
-       
-    //    .cartasLowRes:first-child{
-    //     display: none;
-    //     }
-       
-    //    .cartasLowRes:nth-child(2){
-    //     display: none;
-    //     }
-       
-    //    .cartasLowRes:nth-child(3){
-    //     display: none;
-    //     }
 
     }
 
@@ -453,10 +356,6 @@ button {
         #row-nuestrobox-highres{
             display: none;
         }
-   
-    //     .cartas {
-    //         display: none;
-    //    }
        
        .cartas1{
         display: none;
@@ -479,13 +378,6 @@ button {
     #row-nuestrobox-lowres1{
         padding: 13px;
 
-        // .cartasLowRes {
-        //     background-position: center center;
-        //     background-size: cover;
-        //     text-align: center;
-        //     border-radius: 10px;
-        // }
-        
         .cartasLowRes1{
             background-position: center center;
             background-size: cover;
@@ -498,32 +390,6 @@ button {
             )
             ,url("../media/pinterest1.jpg");
         }
-        
-        // .cartasLowRes2{
-        //     background-position: center center;
-        //     background-size: cover;
-        //     text-align: center;
-        //     border-radius: 10px;
-        //     background-image: linear-gradient(
-        //         0deg,
-        //         rgba(0,0,0,0.205),
-        //         rgba(0,0,0,0.205)
-        //     )
-        //     ,url("../media/pinterest2.jpg");
-        // }
-        
-        // .cartasLowRes3{
-        //     background-position: center center;
-        //     background-size: cover;
-        //     text-align: center;
-        //     border-radius: 10px;
-        //     background-image: linear-gradient(
-        //         0deg,
-        //         rgba(0,0,0,0.205),
-        //         rgba(0,0,0,0.205)
-        //     )
-        //     ,url("../media/pinterest3.jpg");
-        // }
 
     }
 
@@ -543,40 +409,6 @@ button {
             ,url("../media/pinterest2.jpg");
         }
 
-        // .cartasLowRes {
-        //     background-position: center center;
-        //     background-size: cover;
-        //     text-align: center;
-        //     border-radius: 10px;
-        // }
-        
-        // .cartasLowRes:first-child{
-        //     background-image: linear-gradient(
-        //         0deg,
-        //         rgba(0, 0, 0, 0.205),
-        //         rgba(0,0,0,0.205)
-        //     )
-        //     ,url("../media/pinterest1.jpg");
-        // }
-        
-        // .cartasLowRes:nth-child(2){
-        //     background-image: linear-gradient(
-        //         0deg,
-        //         rgba(0,0,0,0.205),
-        //         rgba(0,0,0,0.205)
-        //     )
-        //     ,url("../media/pinterest2.jpg");
-        // }
-        
-        // .cartasLowRes:nth-child(3){
-        //     background-image: linear-gradient(
-        //         0deg,
-        //         rgba(0,0,0,0.205),
-        //         rgba(0,0,0,0.205)
-        //     )
-        //     ,url("../media/pinterest3.jpg");
-        // }
-
     }
 
     #row-nuestrobox-lowres3{
@@ -593,42 +425,8 @@ button {
                 rgba(0,0,0,0.3)
             )
             ,url("../media/pinterest3.jpg");
-        }
+         }
 
-        // .cartasLowRes {
-        //     background-position: center center;
-        //     background-size: cover;
-        //     text-align: center;
-        //     border-radius: 10px;
-        // }
-        
-        // .cartasLowRes:first-child{
-        //     background-image: linear-gradient(
-        //         0deg,
-        //         rgba(0, 0, 0, 0.205),
-        //         rgba(0,0,0,0.205)
-        //     )
-        //     ,url("../media/pinterest1.jpg");
-        // }
-        
-        // .cartasLowRes:nth-child(2){
-        //     background-image: linear-gradient(
-        //         0deg,
-        //         rgba(0,0,0,0.205),
-        //         rgba(0,0,0,0.205)
-        //     )
-        //     ,url("../media/pinterest2.jpg");
-        // }
-        
-        // .cartasLowRes:nth-child(3){
-        //     background-image: linear-gradient(
-        //         0deg,
-        //         rgba(0,0,0,0.205),
-        //         rgba(0,0,0,0.205)
-        //     )
-        //     ,url("../media/pinterest3.jpg");
-        // }
-       
         }
     }
 
@@ -1069,112 +867,6 @@ button {
 
     }
 }
-
-// @media (min-width: 764px) {
-
-//     #nuestros-box-nobanner{
-//         background-color: #c2aabc;
-//         padding-top: 120px;
-
-//         .catalogo1{
-//             background-position: center center;
-//             background-size: cover;
-//             text-align: center;
-//             border-radius: 10px;
-//             background-image: linear-gradient(
-//                 0deg,
-//                 rgba(0, 0, 0, 0.205),
-//                 rgba(0,0,0,0.205)
-//             )
-//             ,url("../media/sabor1.jpg");
-//             height: 95px;
-
-//         }
-
-//         .catalogo2{
-//             background-position: center center;
-//             background-size: cover;
-//             text-align: center;
-//             border-radius: 10px;
-//             background-image: linear-gradient(
-//                 0deg,
-//                 rgba(0, 0, 0, 0.205),
-//                 rgba(0,0,0,0.205)
-//             )
-//             ,url("../media/sabor2.jpg");
-//             height: 95px;
-
-            
-//         }
-
-//         .catalogo3{
-//             background-position: center center;
-//             background-size: cover;
-//             text-align: center;
-//             border-radius: 10px;
-//             background-image: linear-gradient(
-//                 0deg,
-//                 rgba(0, 0, 0, 0.205),
-//                 rgba(0,0,0,0.205)
-//             )
-//             ,url("../media/sabor3.jpg");
-//             height: 95px;
-
-//         }
-
-//         .catalogo4{
-//             background-position: center center;
-//             background-size: cover;
-//             text-align: center;
-//             border-radius: 10px;
-//             background-image: linear-gradient(
-//                 0deg,
-//                 rgba(0, 0, 0, 0.205),
-//                 rgba(0,0,0,0.205)
-//             )
-//             ,url("../media/sabor4.jpg");
-//             height: 95px;
-
-//         }
-
-//         .catalogo5{
-//             background-position: center center;
-//             background-size: cover;
-//             text-align: center;
-//             border-radius: 10px;
-//             background-image: linear-gradient(
-//                 0deg,
-//                 rgba(0, 0, 0, 0.205),
-//                 rgba(0,0,0,0.205)
-//             )
-//             ,url("../media/sabor5.jpg");
-//             height: 95px;
-
-            
-//         }
-
-//         .catalogo6{
-//             background-position: center center;
-//             background-size: cover;
-//             text-align: center;
-//             border-radius: 10px;
-//             background-image: linear-gradient(
-//                 0deg,
-//                 rgba(0, 0, 0, 0.205),
-//                 rgba(0,0,0,0.205)
-//             )
-//             ,url("../media/sabor6.jpg");
-//             height: 95px    ;
-
-//         }
-
-//         p{
-//             text-align: center;
-//         }
-        
-
-//     }
-// }
 
 @media (max-width: 435px) {
 
