@@ -1287,6 +1287,7 @@ button {
         margin: 0px;
         text-align: initial;
         padding: 10px 50px;
+        color: #000000;
     }
 
     .profesionales, .instalaciones {
@@ -1327,25 +1328,35 @@ button {
 
 @media (min-width: 920px) {
 
-    .gridContainer .ColumnUsImg {
-        grid-column: 1 / 2;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100px;
-        grid-area: sidebar;
-        background-image:linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.13),
-            rgba(0, 0, 0, 0.089) 
-        ), url("../media/macarons6.jpg");
-        background-size: cover;
-        background-position: center center;
-        border-radius: 10px;
-        height: 370px;
-        width: 3000px;
+    .gridContainer{ 
+    
+            .ColumnUsImg {
+            grid-column: 1 / 2;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100px;
+            grid-area: sidebar;
+            background-image:linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.13),
+                rgba(0, 0, 0, 0.089) 
+            ), url("../media/macarons6.jpg");
+            background-size: cover;
+            background-position: center center;
+            border-radius: 10px;
+            height: 370px;
+            width: 3000px;
+
+        }
+
+        p{
+            color: #000000;
+        }
+
     }
+    
 }
 
 // NOSOTROS END //
@@ -1524,6 +1535,10 @@ textarea:hover {
   color: #ffffff;
 }
 
+#my-videoClass{
+    width: 50%;
+}
+
 @media (max-width: 720px) {
     
     .contact-nobanner{
@@ -1542,6 +1557,10 @@ textarea:hover {
     
     #contact-nobanner p {
         display: none;
+    }
+
+    #my-videoClass{
+        width: 80%;
     }
 
 }

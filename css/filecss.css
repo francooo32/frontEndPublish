@@ -681,7 +681,8 @@ button {
   .gridContainer p {
     margin: 0px;
     text-align: initial;
-    padding: 10px 50px; }
+    padding: 10px 50px;
+    color: #000000; }
   .gridContainer .profesionales, .gridContainer .instalaciones, .gridContainer .instalaciones {
     background: #55a8fd;
     color: #fff;
@@ -717,7 +718,9 @@ button {
     background-position: center center;
     border-radius: 10px;
     height: 370px;
-    width: 3000px; } }
+    width: 3000px; }
+  .gridContainer p {
+    color: #000000; } }
 
 #contact-nobanner {
   text-align: center;
@@ -848,6 +851,9 @@ textarea:hover {
 #submit:hover {
   color: #ffffff; }
 
+#my-videoClass {
+  width: 50%; }
+
 @media (max-width: 720px) {
   .contact-nobanner {
     text-align: center; }
@@ -858,4 +864,6 @@ textarea:hover {
     margin-top: 0;
     text-align: center; }
   #contact-nobanner p {
-    display: none; } }
+    display: none; }
+  #my-videoClass {
+    width: 80%; } }
