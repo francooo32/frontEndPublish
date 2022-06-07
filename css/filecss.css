@@ -519,3 +519,127 @@ button {
       height: 60px; }
     #nuestros-box-nobanner p {
       text-align: center; } }
+
+#boxescarousel {
+  display: flex;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin: 0 auto 0 auto;
+  height: fit-content; }
+
+#carousel::-webkit-scrollbar {
+  display: none;
+  overflow-x: auto; }
+
+.item {
+  min-width: 300px;
+  min-height: 20vh;
+  margin: 15px;
+  text-align: center;
+  border-radius: 7px; }
+
+#nuestros-box-nobanner .catalogoCarousel {
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 15px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px; }
+
+.catalogoCarousel:first-child {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll1.jpg"); }
+
+.catalogoCarousel:nth-child(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll2.jpg"); }
+
+.catalogoCarousel:nth-child(3) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll3.jpg"); }
+
+.catalogoCarousel:nth-child(4) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll4.jpg"); }
+
+.catalogoCarousel:nth-child(5) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll5.jpg"); }
+
+.catalogoCarousel:nth-child(6) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll6.jpg"); }
+
+.catalogoCarousel:nth-child(7) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll7.jpg"); }
+
+.catalogoCarousel:nth-child(8) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll8.jpg"); }
+
+.catalogoCarousel:nth-child(9) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll1.jpg"); }
+
+.catalogoCarousel:nth-child(10) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll2.jpg"); }
+
+.catalogoCarousel:nth-child(11) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll3.jpg"); }
+
+.catalogoCarousel:nth-child(12) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll4.jpg"); }
+
+.catalogoCarousel:nth-child(13) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll5.jpg"); }
+
+.catalogoCarousel:nth-child(14) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll6.jpg"); }
+
+.catalogoCarousel:nth-child(15) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll7.jpg"); }
+
+.catalogoCarousel:nth-child(16) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.205)), url("../media/scroll8.jpg"); }
+
+.sectionProd {
+  background-color: rgba(247, 188, 229, 0.116); }
+
+.RowProd {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+  text-align: center; }
+  .RowProd div {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top; }
+  .RowProd ul {
+    width: 345px;
+    text-align: start;
+    padding: 0; }
+  .RowProd li {
+    list-style-type: none;
+    display: flex; }
+  .RowProd img {
+    margin: 20px; }
+  .RowProd p {
+    color: #ffffff; }
+
+@media (min-width: 320px) {
+  #nuestros-box-nobanner .boxescarousel {
+    display: flex;
+    justify-content: center; }
+  #RowProd {
+    display: flex;
+    justify-content: center; }
+    #RowProd div {
+      display: inline-block;
+      list-style-type: none;
+      vertical-align: top; }
+    #RowProd ul {
+      width: 345px;
+      text-align: start;
+      padding: 0; }
+    #RowProd li {
+      list-style-type: none;
+      display: flex; }
+    #RowProd p {
+      font-size: 1em; }
+    #RowProd img {
+      margin: 20px; } }
